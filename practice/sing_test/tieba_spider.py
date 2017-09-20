@@ -33,7 +33,7 @@ def get_html(url):
         r = requests.get(url, timeout=30)
         r.raise_for_status()
         # 我们已经知道百度贴吧的 编码是 utf8 手动设置
-        # r.endcodding = r.apparent_endconding
+        r.encoding = 'utf8'
         return r.text
     except:
         return 'Error'
@@ -45,7 +45,7 @@ def get_content(url):
     comments = []
     # 获取源文件
     html = get_html(url)
-    soup = BeautifulSoup(html, 'lxml', from_encoding='utf-8')
+    soup = BeautifulSoup(html, 'lxml')
 
     # 找到所有帖子 li 标签
     liTags =soup.find_all('li', attrs={'class': ' j_thread_list clearfix'})
@@ -86,7 +86,7 @@ class SaveText(object):
         """保存到数据库"""
         cursor = self.conn.cursor()
         for comment in dict:
-            # print(comment['title'], comment['name'], comment['time'], comment['link'], comment['replyNum'])
+            print(comment['title'], comment['name'], comment['time'], comment['link'], comment['replyNum'])
             try:
                 sql = 'insert into posts(title, author, time, link, reply) values(%s, %s, %s, %s, %s)' % \
                       (comment['title'], comment['name'], comment['time'], comment['link'], comment['replyNum'])
