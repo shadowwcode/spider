@@ -1,0 +1,30 @@
+
+URL : http://vchart.yinyuetai.com/vchart/trends?area=ML
+
+有五个栏目 内地、港台、欧美、韩国、日本
+对应的 url: area= ML, area= HT, area= US, area= KR, area= JP
+['ML', 'HT', 'US', 'KR', 'JP']
+
+提取我们需要的信息：
+每个 mv 都在一个 li 标签中 <li class="vitem J_li_toggle_date " name="dmvLi">
+分数: <h3 class="asc_score">99.50</h3>
+排名: <div class="top_num">01</div>
+名字: <a target="_blank" class="mvname" href="http://v.yinyuetai.com/video/3050702">《I NEED U》 官方版</a>
+发布时间: <p class="c9">发布时间：2017-09-25</p>
+歌手: <a class="special" href="http://www.yinyuetai.com/fanclub/29765" target="_blank">张艺兴</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
