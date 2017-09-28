@@ -99,7 +99,7 @@ def main(base_url):
         else:
             print("日本排行榜")
         get_content(url)
-        # for comment in comments:
+        # for comment in comments:d
         #     print comment
 
 
