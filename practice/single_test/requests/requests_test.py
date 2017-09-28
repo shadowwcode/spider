@@ -4,8 +4,10 @@ import requests
 import urllib2
 import urllib
 
-url = 'http://www.baidu.com'
-URL_get = 'http://localhost:8000/get'
+
+
+# url = 'http://www.baidu.com'
+# URL_get = 'http://localhost:8000/get'
 
 def use_simple_urllib2(url):
     response = urllib2.urlopen(url)
@@ -27,11 +29,21 @@ def get_html(url):
 
 
 
-# if __name__ == '__main__':
-#     use_simple_urllib2(url)
 
 
+def timeout_request(url):
+    try:
+        response = requests.get(url, timeout=10)
+    except requests.exceptions.Timeout as e:
+        print e.message
+    else:
+        print response.text
+        print response.status_code
 
+
+if __name__ == '__main__':
+    url = 'https://github.com/shadowwcode'
+    timeout_request(url)
 
 
 
