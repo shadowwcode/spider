@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/single_test/movie/spider_movie.py" afterPath="$PROJECT_DIR$/practice/single_test/movie/spider_movie.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/single_test/requests/requests_test.py" afterPath="$PROJECT_DIR$/practice/single_test/requests/requests_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/single_test/yinyuetai/fan_spider.py" afterPath="$PROJECT_DIR$/practice/single_test/yinyuetai/fan_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,8 +83,8 @@
       <file leaf-file-name="requests_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice/single_test/requests/requests_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#25#40#0" expanded="true" />
               </folding>
@@ -170,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -369,7 +366,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667643" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
@@ -704,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/single_test/requests/requests_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#25#40#0" expanded="true" />
           </folding>
