@@ -6,8 +6,8 @@ import urllib
 
 
 
-# url = 'http://www.baidu.com'
-# URL_get = 'http://localhost:8000/get'
+url = 'http://www.baidu.com'
+URL_get = 'http://localhost:8000/get'
 
 def use_simple_urllib2(url):
     response = urllib2.urlopen(url)
