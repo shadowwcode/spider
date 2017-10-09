@@ -19,7 +19,7 @@ and they lived at the bottom of a well.</p>
 
 soup = BeautifulSoup(html_doc, 'lxml', from_encoding='utf-8')
 
-# print(soup.prettify())
+print(soup.prettify())
 print soup.head.contents
 print soup.title.get_text()
 print soup.body.b
