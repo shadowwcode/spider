@@ -59,14 +59,14 @@ def get_content(url):
         comment = {}
         # 防止爬虫因找不到信息而停止
         try:
-            comment['Top'] = li.find('div', class_='top_num').text.strip()
+            comment['Top'] = li.find('div', class_='top_num').text.strip().encode('utf-8')
             # print comment
             # sys.exit(0)
-            comment['Score'] = li.find('h3', class_='asc_score').text.strip()
-            comment['MV_name'] = li.find('a', class_='mvname').text.strip()
-            comment['Time'] = li.find('p', class_='c9').text.strip()
-            comment['Name'] = li.find('a', class_='special').text.strip()
-            # comments.append(comment)
+            comment['Score'] = li.find('h3', class_='asc_score').text.strip().encode('utf-8')
+            comment['MV_name'] = li.find('a', class_='mvname').text.strip().encode('utf-8')
+            comment['Time'] = li.find('p', class_='c9').text.strip().encode('utf-8')
+            comment['Name'] = li.find('a', class_='special').text.strip().encode('utf-8')
+            # comments.append(comment)d
 
         except:
             print 'Something is Wrong'
