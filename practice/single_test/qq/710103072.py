@@ -38,7 +38,7 @@ def get_shuoshuo(qq):
         driver.switch_to.frame('app_canvas_frame')
         content = driver.find_elements_by_css_selector('.content')
         stime = driver.find_elements_by_css_selector('.c_tx.c_tx3.goDetail')
-        for con,sti in zip(content,stime):
+        for con, sti in zip(content,stime):
             data = {
                 'time':sti.text,
                 'shuos':con.text
