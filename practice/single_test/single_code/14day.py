@@ -33,7 +33,7 @@ if __name__ == '__main__':
     b &= 7
     print b
     print 'a & b = %d' % b
-""" binary  & ^ << >> | """
+""" binary  & ^ << >> | """   
 
 
 
