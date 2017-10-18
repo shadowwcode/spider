@@ -30,9 +30,9 @@ class chainTable():
         if not self.isEmpty():
             # return self.items.index(element) + 1
             for i in range(len(self.items)):
-                if i == element:
-                    return i + 1
-                    break
+                if self.items[i] == element:
+                    return i
+
             return -1
 
     def PriorElem(self, element):
@@ -67,7 +67,26 @@ class chainTable():
 
 
 
-
+if __name__ == '__main__':
+    m = chainTable()
+    m.items = [1, 2, 2, 3, 4, 5, 4, 6, 1]
+    # print m.isEmpty()
+    # print m.ListLength()
+    # print m.ListTraverse()
+    # print m.GetElem(1)
+    # print m.GetElem(10)
+    print m.LocateElem(2)
+    print m.LocateElem(6)
+    print m.PriorElem(2)
+    print m.PriorElem(6)
+    print m.PriorElem(1)
+    print m.NextElem(2)
+    print m.NextElem(1)
+    print m.NextElem(6)
+    m.ClearList()
+    print m.items
+    m.DestoryList()
+    print m.items
 
 
 
