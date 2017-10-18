@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 
+# 栈
 class Stack():
     """ 模拟栈 """
     def __init__(self):
