@@ -48,14 +48,51 @@ if __name__ == '  ':
 
 
 # 61 杨辉三角形
+if __name__ == '__main__':
+    def triangles():
+        L = [1]
+        while True:
+            yield L
+            L.append(0)
+            L = [L[i - 1] + L[i] for i in range(len(L))]
+
+    a = triangles()
+    print a
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
+
+if __name__ == ' ':
+    def triangels():
+        ret = [1]
+        while True:
+            yield ret
+            for i in range(1, len(ret)):
+                ret[i] = pre[i] + pre[i - 1]
+            ret.append(1)
+            pre = ret[:]
+
+    a = triangels()
+    print a.next()
+    print a.next()
+    print a.next()
+    print a.next()
 
 
+if __name__ == ' ':
+    def YangHui(num=10):
+        LL = [1]
+        for i in range(1, num):
+            LL.append([(0 if j == 0 else LL[i - 1][j - 1]) + (0 if j == len(LL[i - 1]) else LL[i - 1][j]) for j in
+                       range(i + 1)])
+        return LL
 
 
-
-
-
-
-
+    print YangHui()
 
 
