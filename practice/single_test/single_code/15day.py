@@ -63,9 +63,6 @@ if __name__ == '__main__':
     print a.next()
     print a.next()
     print a.next()
-    print a.next()
-    print a.next()
-    print a.next()
 
 if __name__ == ' ':
     def triangels():
