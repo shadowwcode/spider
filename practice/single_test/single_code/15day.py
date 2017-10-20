@@ -82,6 +82,7 @@ if __name__ == ' ':
     print a.next()
     print a.next()
     print a.next()
+    print a.next()
 
 
 if __name__ == ' ':
