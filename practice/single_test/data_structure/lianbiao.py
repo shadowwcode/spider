@@ -35,6 +35,7 @@ class chainTable():
 
             return -1
 
+    # 前驱
     def PriorElem(self, element):
         temp = self.LocateElem(element)
         if temp == -1:
@@ -45,6 +46,7 @@ class chainTable():
             else:
                 return self.items[temp-1]
 
+    # 后继
     def NextElem(self, element):
         temp = self.LocateElem(element)
         if temp == -1:
