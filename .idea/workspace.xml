@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/aaa.py" afterPath="$PROJECT_DIR$/project/aaa.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="string.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="629">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="e#455#480#0" expanded="true" />
               </folding>
@@ -61,14 +60,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/aaa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+            <state relative-caret-position="-646">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="e#1#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/loop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/project/test.py" />
         <option value="$PROJECT_DIR$/project/string.py" />
         <option value="$PROJECT_DIR$/project/aaa.py" />
+        <option value="$PROJECT_DIR$/project/loop.py" />
       </list>
     </option>
   </component>
@@ -174,8 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,6 +205,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,24 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aaa">
-    <configuration name="15day" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/single_test/single_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/single_test/single_code/15day.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.loop">
     <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,6 +274,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spider" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/single_test/data_structure/binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/loop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,18 +331,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.15day" />
-      <item index="2" class="java.lang.String" itemvalue="Python.binary_tree" />
-      <item index="3" class="java.lang.String" itemvalue="Python.aaa" />
-      <item index="4" class="java.lang.String" itemvalue="Python.string" />
+      <item index="1" class="java.lang.String" itemvalue="Python.binary_tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.aaa" />
+      <item index="3" class="java.lang.String" itemvalue="Python.string" />
+      <item index="4" class="java.lang.String" itemvalue="Python.loop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.aaa" />
-        <item index="1" class="java.lang.String" itemvalue="Python.string" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.binary_tree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.15day" />
+        <item index="0" class="java.lang.String" itemvalue="Python.loop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.aaa" />
+        <item index="2" class="java.lang.String" itemvalue="Python.string" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -397,13 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/mysql_connect/cursor_method_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/sing_test/test_urllib2.py" />
     <entry file="file://$PROJECT_DIR$/practice/mysql_connect/select_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="629">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="e#455#480#0" expanded="true" />
           </folding>
@@ -695,11 +698,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/aaa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="120" column="10" lean-forward="true" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+        <state relative-caret-position="-646">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#1#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
