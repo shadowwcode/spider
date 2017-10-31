@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spider.iml" afterPath="$PROJECT_DIR$/.idea/spider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/little_project/parse_station.py" afterPath="$PROJECT_DIR$/project/tickets/parse_station.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/little_project/stations.py" afterPath="$PROJECT_DIR$/project/tickets/stations.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/little_project/tickets.py" afterPath="$PROJECT_DIR$/project/tickets/tickets.py" />
-    </list>
+    <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,71 +14,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tickets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/tickets/tickets.py">
+      <file leaf-file-name="cpu1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpu1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
-                <element signature="e#291#316#0" expanded="true" />
+                <element signature="e#24#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2048.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/2048/2048.py">
+      <file leaf-file-name="cpu2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpu2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/collect_linux/mem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <element signature="e#23#36#0" expanded="true" />
+                <element signature="e#23#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test11.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/test11.py">
+      <file leaf-file-name="cpuinfo.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpuinfo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-              <folding>
-                <element signature="e#25#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="e#1#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse_station.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/tickets/parse_station.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="e#26#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/tickets/stations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,9 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/test_bs4.py" />
-        <option value="$PROJECT_DIR$/practice/sp_baidu_note.py" />
-        <option value="$PROJECT_DIR$/practice/baike_spider/html_downloader.py" />
         <option value="$PROJECT_DIR$/practice/baike_spider/html_parser.py" />
         <option value="$PROJECT_DIR$/practice/baike_spider/html_outputer.py" />
         <option value="$PROJECT_DIR$/practice/baike_spider/spider_main.py" />
@@ -158,6 +121,9 @@
         <option value="$PROJECT_DIR$/project/little_project/tickets.py" />
         <option value="$PROJECT_DIR$/project/2048/2048.py" />
         <option value="$PROJECT_DIR$/project/test11.py" />
+        <option value="$PROJECT_DIR$/scripts/collect_linux/cpu1.py" />
+        <option value="$PROJECT_DIR$/scripts/collect_linux/cpu2.py" />
+        <option value="$PROJECT_DIR$/scripts/collect_linux/mem.py" />
       </list>
     </option>
   </component>
@@ -212,12 +178,13 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="collect_linux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,13 +207,14 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProject\spider\scripts\collect_linux" />
+      <recent name="E:\PythonProject\spider\practice\mysql_connect" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PythonProject\spider\practice\single_test\qq" />
       <recent name="E:\PythonProject\spider\practice\sing_test" />
       <recent name="E:\PythonProject\spider\practice\baike_spider" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PythonProject\spider\practice\mysql_connect" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,24 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test11">
-    <configuration name="12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/little_project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spider" />
-      <option name="SCRIPT_NAME" value="E:\PythonProject\spider\project\little_project\tickets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.cpu1">
     <configuration name="2048" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,6 +243,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spider" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/2048/2048.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="cpu1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/collect_linux" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/collect_linux/cpu1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,19 +334,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.tickets" />
-      <item index="1" class="java.lang.String" itemvalue="Python.12306" />
-      <item index="2" class="java.lang.String" itemvalue="Python.parse_station" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stations" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2048" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test11" />
+      <item index="1" class="java.lang.String" itemvalue="Python.parse_station" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stations" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2048" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test11" />
+      <item index="5" class="java.lang.String" itemvalue="Python.cpu1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test11" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2048" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stations" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parse_station" />
-        <item index="4" class="java.lang.String" itemvalue="Python.12306" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cpu1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test11" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2048" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stations" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parse_station" />
       </list>
     </recent_temporary>
   </component>
@@ -397,13 +365,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667643" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667643" sideWeight="0.49069768" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2836767" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35974643" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26782885" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18667643" sideWeight="0.5093023" order="2" side_tool="true" content_ui="tabs" />
@@ -442,16 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/sing_test/test_bs4.py" />
-    <entry file="file://$PROJECT_DIR$/practice/immoc_spider/read_txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/sing_test/spider_dota.py" />
-    <entry file="file://$PROJECT_DIR$/practice/sing_test/note_txt.py" />
     <entry file="file://$PROJECT_DIR$/practice/sing_test/tieba_spider.py" />
     <entry file="file://$PROJECT_DIR$/practice/mysql_connect/mysql_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,12 +672,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/tickets/tickets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <element signature="e#291#316#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/2048/2048.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/test11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="e#25#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/aaa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="547">
           <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="e#1#12#0" expanded="true" />
+            <element signature="e#1#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/tickets/parse_station.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#26#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,42 +730,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/tickets/parse_station.py">
+    <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpuinfo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpu1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <element signature="e#26#35#0" expanded="true" />
+            <element signature="e#24#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/tickets/tickets.py">
+    <entry file="file://$PROJECT_DIR$/scripts/collect_linux/cpu2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="e#291#316#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/2048/2048.py">
+    <entry file="file://$PROJECT_DIR$/scripts/collect_linux/mem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+        <state relative-caret-position="340">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/test11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <element signature="e#25#46#0" expanded="true" />
+            <element signature="e#23#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
