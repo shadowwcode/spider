@@ -60,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup_ver2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="backup_ver2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+              <folding>
+                <element signature="e#50#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backup_ver3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
               </folding>
@@ -435,13 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/mysql_connect/bank__transfer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/sing_test/requests_test.py" />
     <entry file="file://$PROJECT_DIR$/practice/sing_test/spider_movie.py" />
     <entry file="file://$PROJECT_DIR$/practice/sing_test/fan_spider.py" />
@@ -794,8 +799,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="e#50#59#0" expanded="true" />
           </folding>
