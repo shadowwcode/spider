@@ -20,13 +20,13 @@ now = time.strftime('%H%M%S')
 # Create the subdirectory if it isn't already there
 if not os.path.exists(today):
     os.mkdir(today)
-    print('Successfully created the directory.' + today)
+    print('Successfully created the directory: %s' % today)
 
 # The name of the file
-target = today + os.sep + now + '.tar.gz'
+target = today + os.sep + now + '.zip'
 
 # 5. We use the zip command(in Linux/Unix) to the put the files in a zip archive
-tar_command = "tar -zcvf %s %s" % (target, ' '.join(sources))
+tar_command = "zip -qr %s %s" % (target, ' '.join(sources))
 
 # Run
 if os.system(tar_command) == 0:

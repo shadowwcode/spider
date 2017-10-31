@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="" />
+    <list default="true" id="7f41db65-c285-4e15-80be-9e86e7fb4a9e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py" afterPath="$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py" afterPath="$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +66,7 @@
       <file leaf-file-name="backup_ver2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="544">
               <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
@@ -75,8 +78,8 @@
       <file leaf-file-name="backup_ver3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
               </folding>
@@ -109,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/baike_spider/url_manager.py" />
         <option value="$PROJECT_DIR$/practice/mysql_connect/cursor_method_test.py" />
         <option value="$PROJECT_DIR$/practice/mysql_connect/select_test.py" />
         <option value="$PROJECT_DIR$/practice/mysql_connect/insert_up_del_test.py" />
@@ -160,6 +162,7 @@
         <option value="$PROJECT_DIR$/scripts/collect_linux/backup1.py" />
         <option value="$PROJECT_DIR$/scripts/collect_linux/backup_ver1.py" />
         <option value="$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py" />
+        <option value="$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py" />
       </list>
     </option>
   </component>
@@ -799,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="544">
           <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="e#50#59#0" expanded="true" />
@@ -809,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/collect_linux/backup_ver3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="e#50#59#0" expanded="true" />
           </folding>

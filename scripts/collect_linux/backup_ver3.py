@@ -17,16 +17,22 @@ today = target_dir + time.strftime('%Y%m%d')
 # The current name is the name of file
 now = time.strftime('%H%M%S')
 
+# add comment
+comment = raw_input('Enter comment: ')
+if len(comment) == 0:
+    target = today + os.sep + now + '.zip'
+else:
+    target = today + os.sep + now + '_' + \
+        comment.replace(' ', '_') + '.zip'
+
 # Create the subdirectory if it isn't already there
 if not os.path.exists(today):
     os.mkdir(today)
-    print('Successfully created the directory.' + today)
+    print('Successfully created the directory: %s' % today)
 
-# The name of the file
-target = today + os.sep + now + '.tar.gz'
 
 # 5. We use the zip command(in Linux/Unix) to the put the files in a zip archive
-tar_command = "tar -zcvf %s %s" % (target, ' '.join(sources))
+tar_command = "zip -qr %s %s" % (target, ' '.join(sources))
 
 # Run
 if os.system(tar_command) == 0:
