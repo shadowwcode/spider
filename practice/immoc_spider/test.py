@@ -40,3 +40,6 @@ for link in links:
         conn.close()
         cursor.close()
 
+if __name__ == '__main__':
+    pass
+
