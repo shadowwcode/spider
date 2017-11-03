@@ -73,8 +73,6 @@ base_url = 'http://www.ty2016.net/net/tctd01/'
 
 deep = 20
 
-if __name__ == '__main__':
-    main(base_url, deep)
 
 
 
