@@ -6,6 +6,7 @@ import lxml
 
 url = 'http://www.quanshuwang.com'
 
+
 def get_html(url):
     try:
         r = requests.get(url, timeout=30)
@@ -14,14 +15,11 @@ def get_html(url):
         return r.text
     except:
         print 'Error'
+    finally:
+        print 'End of the file!'
+
 
 print get_html(url)
-
-
-
-
-
-
 
 
 
