@@ -47,7 +47,6 @@ class HandlerClass(SimpleHTTPRequestHandler):
                 guest = "LOCAL: "+pair[0]
             else:
                 guest = pair[0]
-                    )[20:24])
 
 
 
