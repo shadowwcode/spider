@@ -7,8 +7,8 @@ import sys
 import BaseHTTPServer
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 import socket
-import fcntl
 import struct
+import fcntl
 import pickle
 from datetime import datetime
 from collections import OrderedDict
@@ -20,7 +20,7 @@ class HandlerClass(SimpleHTTPRequestHandler):
         return socket.inet_ntoa(fcntl.ioctl(
             s.fileno(),
             0x8915,
-            struct.pack('256s', ifname[:15])
+            struct.pack('256s', ifname[:15]))
     def log_message(self, format, *args):
         if len(args) < 3 or "200" not in args[1]:
             return
@@ -39,22 +39,15 @@ class HandlerClass(SimpleHTTPRequestHandler):
             num = request[addr_pair][0]+1
             del request[addr_pair]
             request[addr_pair]=[num,ts]
-        file=open("index.html", "w")
+        file = open("index.html", "w")
         file.write("<!DOCTYPE html> <html> <body><center><h1><font color=\"blue\" face \
         =\"Georgia, Arial\" size=8><em>HA</em></font> Webpage Visit Results</h1></center>")
         for pair in request:
             if pair[0] == host:
-                guest = "LOCAL: "+pair[0]
+                guest = "LOCAL: " + pair[0]
             else:
                 guest = pair[0]
 
-
-
-
-
-
-
-
-
-
+if __name__ == '__main__':
+    print('Hello World!for i in range(10) if i % 2 = 1')
 
