@@ -34,11 +34,11 @@ class HandlerClass(SimpleHTTPRequestHandler):
         host=self.address_string()
         addr_pair = (host,server)
         if addr_pair not in request:
-            request[addr_pair]=[1,ts]
+            request[addr_pair]=[1, ts]
         else:
             num = request[addr_pair][0]+1
             del request[addr_pair]
-            request[addr_pair]=[num,ts]
+            request[addr_pair]=[num, ts]
         file = open("index.html", "w")
         file.write("<!DOCTYPE html> <html> <body><center><h1><font color=\"blue\" face \
         =\"Georgia, Arial\" size=8><em>HA</em></font> Webpage Visit Results</h1></center>")
@@ -50,4 +50,5 @@ class HandlerClass(SimpleHTTPRequestHandler):
 
 if __name__ == '__main__':
     print('Hello World!for i in range(10) if i % 2 = 1')
+
 
